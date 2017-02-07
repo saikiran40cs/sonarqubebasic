@@ -12,5 +12,7 @@
 
 6. Browse the results at [http://localhost:9000](http://localhost:9000/) \(default [System administrator](http://docs.sonarqube.org/display/SONAR/Authorization) credentials are admin/admin\)
 
+![](/assets/SonarQubeViewer.png)
+
 
 
