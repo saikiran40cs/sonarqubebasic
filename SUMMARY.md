@@ -1,5 +1,8 @@
 # Summary
 
-* [SonarQube](README.md)
-* [Unrecognized files](unrecognized_files.md)
-* [During Analysis](during_analysis.md)
+* [Preface](README.md)
+* [About SonarQube](about-sonarqube.md)
+* [Getting Started ](during_analysis.md)
+* [Usage of SonarQube](how-to-use-sonarqube.md)
+* [Report Generation](report-generation.md)
+

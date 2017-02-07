@@ -1,3 +1,4 @@
-## **Unrecognized files** {#unrecognized-files}
+##  {#unrecognized-files}
 
-By default, only files that are recognized by a language plugin are loaded into the project during analysis. For example if your SonarQube instance has the Java and JavaScript plugins on board, all .java and .js files will be loaded, but .xml files will be ignored. However, it is possible to import all text files in the analysis encoding in a project by setting **Settings &gt; Exclusions &gt; Files &gt;** Import unknown files to true.
+
+
