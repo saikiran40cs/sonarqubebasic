@@ -4,7 +4,19 @@ To start the SonarQube always start the service from C:\sonarqube\bin\windows-x8
 
 ![](/assets/SonarQubeViewer.png)
 
-If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
+If you want to change the default URL then update the following in sonar.properties under conf of sonarQube.
+
+```
+sonar.web.host=0.0.0.0
+
+# Web context. When set, it must start with forward slash (for example /sonarqube).
+# The default value is root context (empty value).
+sonar.web.context=/
+# TCP port for incoming HTTP connections. Default value is 9000.
+sonar.web.port=<to the port number you want to change>
+```
+
+If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
 
 _C:\sonar-scanner-2.7\bin\sonar-scanner.bat_
 
