@@ -16,7 +16,14 @@ sonar.web.context=/
 sonar.web.port=<to the port number you want to change>
 ```
 
-If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
+Keep in mind that if you change the port number here you must also change in Sonar-scanner.properties under conf of sonar scanner.
+
+```
+#----- Default SonarQube server
+sonar.host.url=http://localhost:<to port number you have changed in SonarQube>
+```
+
+If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
 
 _C:\sonar-scanner-2.7\bin\sonar-scanner.bat_
 
