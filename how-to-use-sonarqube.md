@@ -15,7 +15,7 @@ So, use the below code to create the sonar-project.properties file to compile th
 ```
 #Required metadata
 sonar.projectKey=org.sonarqube:WAS_Sovellukset
-sonar.projectName=Java :: TADVV Project:: SonarQube Scanner
+sonar.projectName=Java :: Test Project:: SonarQube Scanner
 sonar.projectVersion=1.0
 # Comma-separated paths to directories with sources (required)
 sonar.sources=src
