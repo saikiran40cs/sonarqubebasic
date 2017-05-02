@@ -1,8 +1,8 @@
-## Usage of SonarQube**:** {#during-analysis}
+## How to use SonarQube **as-is:** {#during-analysis}
 
 To start the SonarQube always start the service from C:\sonarqube\bin\windows-x86-xx\StartSonar.bat and login the web console by entering [http://localhost:9000](http://localhost:9000/) \(default System administrator credentials are admin/admin\)
 
-![](/assets/SonarQubeViewer.png)
+![](/assets/index.png)
 
 If you want to change the default URL then update the following in sonar.properties under conf of sonarQube.
 

@@ -1,6 +1,4 @@
-**About the Software:**
-
----
+## About SonarQube {#during-analysis}
 
 **SonarQube® **platform is an open source quality management platform, dedicated to continuously analyzing and measuring the technical quality of source code, from project portfolio down to the method level, and tracking the introduction of new Bugs, Vulnerabilities, and Code Smells in the Leak Period.
 
