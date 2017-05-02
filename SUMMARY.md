@@ -6,4 +6,5 @@
 * [3. Installation of SonarQube](test.md)
 * [4. Usage of SonarQube](how-to-use-sonarqube.md)
 * [5. Report Generation](report-generation.md)
+* [6. Integration with Jenkins](Integration with Jenkins.md)
 
