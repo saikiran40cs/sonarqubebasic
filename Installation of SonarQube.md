@@ -9,7 +9,7 @@ Pr**re-Requisities:**
 In order to set up SonarQube on a windows server backed by Sql server Windows Authentication the following prerequisites are required…
 
 1. Install Java SE
-2. Download SonarQube binaries: Download the latest SonarQube bits from the SonarQube download page [http://www.sonarqube.org/downloads/](http://www.sonarqube.org/downloads/)
+2. Download SonarQube binaries: Download the latest [SonarQube ](http://www.sonarqube.org/downloads/)bits from the SonarQube download page 
 3. Install SQL Server 2014: SonarQube supports various database backend technologies. I’ll be using SQLServer 2014. SonarQube supports SQL Server 2008 and above including SQL Azure. Install SQL Server using the defaults in the wizard. I’ve named the default database instance MSSQLServer
 
 # SonarQube Pre-requisities validation & configuration {#sonarqube-pre-requisities-validation--configuration}
@@ -75,7 +75,6 @@ SELECTCONVERT(varchar,SERVERPROPERTY('collation'));
 
   ```
   sonar.jdbc.url=jdbc:sqlserver://localhost:<portnumber if otherthan 8080>;databaseName=sonar;integratedSecurity=true
-
   ```
 
   ![](http://www.visualstudiogeeks.com/images/screenshots/tarun/SonarQube/sonarqubesqldatabaseconnectionstring.png "StartSonar without install SQL connection string")
@@ -86,7 +85,7 @@ SELECTCONVERT(varchar,SERVERPROPERTY('collation'));
 
   ![](/assets/sonarQubeSQLWindowsAuthDrivers.png)
 
-  * Launch a command prompt as administrator. Navigate to C:\SonarQube\sonarqube-6.3.1\bin\windows-x86-64 and run the below listed command. 
+  * Launch a command prompt as administrator. Navigate to C:\SonarQube\sonarqube-6.3.1\bin\windows-x86-64 and run the below listed command.
 
   * At this point you should see the SonarQube running up in a local webserver mode. Open a browser and navigate to [http://localhost:9000](http://localhost:9000). Since this is the first time, SonarQube will deploy the schema to the sonar database.
 
