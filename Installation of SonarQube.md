@@ -103,7 +103,7 @@ SELECTCONVERT(varchar,SERVERPROPERTY('collation'));
 
 In the last section by running SonarQube in commandline we have proven that all required configuration, frameworks and permissions are correct. In this section we’ll install SonarQube as a windows service.
 
-Open up a command line as an administrator and navigate to the folder C:\SonarQube\sonarqube-5.4\bin\windows-x86-64. Invoke InstallNTService.bat. This will install SonarQube as a service.
+Open up a command line as an administrator and navigate to the folder C:\SonarQube\sonarqube-6.3.1\bin\windows-x86-64. Invoke InstallNTService.bat. This will install SonarQube as a service.
 
 In run prompt type `services.msc` and search for SonarQube service. Change the service logon user account to SonarUser. Start the service and refresh the services console after a few seconds to ensure that the service hasn’t failed. If the service has failed to start look in the log file to see the reason for the failure.
 
