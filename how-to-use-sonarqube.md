@@ -4,7 +4,7 @@ To start the SonarQube always start the service from C:\sonarqube\bin\windows-x8
 
 ![](/assets/index.png)
 
-If you want to change the default URL then update the following in sonar.properties under conf of sonarQube.
+If you want to change the default URL then update the following in _**sonar.properties under configuration folder\(conf\)of sonarQube**_ installation.
 
 ```
 sonar.web.host=0.0.0.0
@@ -16,7 +16,7 @@ sonar.web.context=/
 sonar.web.port=<to the port number you want to change>
 ```
 
-Keep in mind that if you change the port number here you must also change in Sonar-scanner.properties under conf of sonar scanner.
+Keep in mind that if you change the port number here you must also change in _sonar-scanner.properties under configuration folder\(conf\) of sonar scanner._
 
 ```
 #----- Default SonarQube server
@@ -25,7 +25,7 @@ sonar.host.url=http://localhost:<to port number you have changed in SonarQube>
 
 If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
 
-_C:\sonar-scanner-2.7\bin\sonar-scanner.bat_
+_C:\sonar-scanner-3.0.1.733\bin\sonar-scanner.bat_
 
 The above command requires the **sonar-project.properties** file to be available in the project location otherwise it gives error messages.
 
@@ -48,7 +48,7 @@ After saving the above code try to run the code using the following lines
 
 _cd C:\&lt;workspace location&gt;\&lt;ProjectName&gt;\_
 
-_C:\sonar-scanner-2.7\bin\sonar-scanner.bat_
+_C:\sonar-scanner-3.0.1.733\bin\sonar-scanner.bat_
 
 ![](/assets/SonarQubeViewerCmd.png)
 

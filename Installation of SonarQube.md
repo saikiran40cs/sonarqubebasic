@@ -4,7 +4,7 @@
 
 This is a single box set up of SonarQube on a Windows Server 2012 R2.
 
-Pr**re-Requisities:**
+**Pre-Requisities:**
 
 In order to set up SonarQube on a windows server backed by Sql server Windows Authentication the following prerequisites are required…
 
