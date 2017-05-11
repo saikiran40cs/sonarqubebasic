@@ -10,7 +10,7 @@ In order to set up SonarQube on a windows server backed by Sql server Windows Au
 
 1. Install Java SE
 2. Download SonarQube binaries: Download the latest [SonarQube ](http://www.sonarqube.org/downloads/)bits from the SonarQube download page 
-3. Install SQL Server 2014: SonarQube supports various database backend technologies. I’ll be using SQLServer 2014. SonarQube supports SQL Server 2008 and above including SQL Azure. Install SQL Server using the defaults in the wizard. I’ve named the default database instance MSSQLServer
+3. Install SQL Server 2014: SonarQube supports various database backend technologies. I’ll be using SQLServer 2014. SonarQube supports SQL Server 2008 and above including SQL Azure. Install SQL Server using the defaults in the wizard. I’ve named the _default database instance_ **MSSQLServer**
 
 # SonarQube Pre-requisities validation & configuration {#sonarqube-pre-requisities-validation--configuration}
 
