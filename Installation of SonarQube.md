@@ -2,9 +2,9 @@
 
 **Infrastructure Setup:**
 
-This is a single box set up of SonarQube on a Windows Server 2012 R2.
+This is a single box set up of SonarQube on a **Windows Server 2012 R2.**
 
-**Pre-Requisities:**
+**Pre-Requisities for standalone installation:**
 
 In order to set up SonarQube on a windows server backed by Sql server Windows Authentication the following prerequisites are required…
 
