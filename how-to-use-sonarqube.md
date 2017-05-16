@@ -33,7 +33,7 @@ So, use the below code to create the sonar-project.properties file to compile th
 
 ```
 #Required metadata
-sonar.projectKey=org.sonarqube:WAS_Sovellukset
+sonar.projectKey=org.sonarqube:<ProjectName>
 sonar.projectName=Java :: Test Project:: SonarQube Scanner
 sonar.projectVersion=1.0
 # Comma-separated paths to directories with sources (required)
@@ -43,6 +43,8 @@ sonar.language=java
 # Encoding of the source files
 sonar.sourceEncoding=UTF-8
 ```
+
+###### \* - REPLACE WITH APPROPRIATE CONTENTS FOR THE LINES WITH ANGULAR BRACES &lt;&gt;
 
 After saving the above code try to run the code using the following lines
 
