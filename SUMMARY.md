@@ -10,7 +10,7 @@
 * [4. SonarScanner Installation](sonarscanner-installation.md)
   * [4.1 Installation of SonarScanner in Windows](sonarscanner-installation/41-installation-of-sonarscanner-in-windows.md)
   * [4.2 Installation of SonarScanner in Jenkins](sonarscanner-installation/42-installation-of-sonarscanner-in-jenkins.md)
-* [5. Usage of SonarQube](how-to-use-sonarqube.md)
+* [5. Analysis using SonarQube](how-to-use-sonarqube.md)
 * [6. Report Generation](report-generation.md)
 * [7. Integration with Jenkins](Integration with Jenkins.md)
 

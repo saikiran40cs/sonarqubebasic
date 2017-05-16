@@ -1,27 +1,6 @@
-## How to use SonarQube **as-is:** {#during-analysis}
+## How to Analyse using SonarQube**:** {#during-analysis}
 
-To start the SonarQube always start the service from C:\sonarqube\bin\windows-x86-xx\StartSonar.bat and login the web console by entering [http://localhost:9000](http://localhost:9000/) \(default System administrator credentials are admin/admin\)
 
-![](/assets/index.png)
-
-If you want to change the default URL then update the following in _**sonar.properties under configuration folder\(conf\)of sonarQube**_ installation.
-
-```
-sonar.web.host=0.0.0.0
-
-# Web context. When set, it must start with forward slash (for example /sonarqube).
-# The default value is root context (empty value).
-sonar.web.context=/
-# TCP port for incoming HTTP connections. Default value is 9000.
-sonar.web.port=<to the port number you want to change>
-```
-
-Keep in mind that if you change the port number here you must also change in _sonar-scanner.properties under configuration folder\(conf\) of sonar scanner._
-
-```
-#----- Default SonarQube server
-sonar.host.url=http://localhost:<to port number you have changed in SonarQube>
-```
 
 If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
 

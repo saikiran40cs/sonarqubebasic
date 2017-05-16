@@ -25,5 +25,14 @@ Options:
 
 If you need more debug information you can add the`sonar.verbose`property by adding the command line parameter`-Dsonar.verbose=true`.
 
+Always keep in mind that if you change the port number of SonarQube installation then you must also change in _**sonar-scanner.properties** under configuration folder\(conf\) of **sonar scanner installation directory.**_
+
+```
+#----- Default SonarQube server
+sonar.host.url=http://localhost:<to port number you have changed in SonarQube>
+```
+
+Restart the sonarQube server if you have changed configuration settings of sonarscanner
+
 You are now ready to **analyze a project with the SonarQube Scanner.**
 
