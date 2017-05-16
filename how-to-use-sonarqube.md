@@ -1,37 +1,14 @@
-## How to Analyse using SonarQube**:** {#during-analysis}
+## Analyse using SonarQube {#during-analysis}
 
+---
 
+## **Unrecognized files** {#unrecognized-files}
 
-If you want to validate the project then first you must navigate to the project folder in command prompt and hit the following command
+By default, only files that are recognized by a language plugin are loaded into the project during analysis. For example if your SonarQube instance has the Java and JavaScript plugins on board, all .java and .js files will be loaded, but .xml files will be ignored. However, it is possible to import all text files in the analysis encoding in a project by setting **Settings &gt; Exclusions &gt; Files &gt;** Import unknown files to true.
 
-_C:\sonar-scanner-3.0.1.733\bin\sonar-scanner.bat_
+## **During Analysis** {#during-analysis}
 
-The above command requires the **sonar-project.properties** file to be available in the project location otherwise it gives error messages.
+During analysis, data is requested from the server, the files provided to the analysis are analyzed, and the resulting data is sent back to the server at the end in the form of a report, which is then analyzed asynchronously server-side.
 
-So, use the below code to create the sonar-project.properties file to compile the code and analyse it.
-
-```
-#Required metadata
-sonar.projectKey=org.sonarqube:<ProjectName>
-sonar.projectName=Java :: Test Project:: SonarQube Scanner
-sonar.projectVersion=1.0
-# Comma-separated paths to directories with sources (required)
-sonar.sources=src
-# Language
-sonar.language=java
-# Encoding of the source files
-sonar.sourceEncoding=UTF-8
-```
-
-###### \* - REPLACE WITH APPROPRIATE CONTENTS FOR THE LINES WITH ANGULAR BRACES &lt;&gt;
-
-After saving the above code try to run the code using the following lines
-
-_cd C:\&lt;workspace location&gt;\&lt;ProjectName&gt;\_
-
-_C:\sonar-scanner-3.0.1.733\bin\sonar-scanner.bat_
-
-![](/assets/SonarQubeViewerCmd.png)
-
-After we get a success message we can view it in console.
+Analysis reports are queued, and processed sequentially, so it is quite possible that for a brief period after your analysis log shows completion, the updated values are not visible in your SonarQube project. However, you will be able to tell what's going on because an icon will be added next to the project name. Mouse over it for more detail \(and links if you're logged in with the proper permissions.\)
 
