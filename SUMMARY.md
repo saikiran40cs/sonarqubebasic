@@ -13,6 +13,6 @@
 * [5. Analysis using SonarQube](how-to-use-sonarqube.md)
   * [5.1 Simple Analysis using SonarScanner](how-to-use-sonarqube/51-simple-analysis-using-sonarscanner.md)
   * [5.2 Advanced Analysis using SonarQube](how-to-use-sonarqube/52-advanced-analysis-using-sonarqube.md)
-* [6. Report Generation](report-generation.md)
+* [6. Understanding the Report](report-generation.md)
 * [7. Integration with Jenkins](Integration with Jenkins.md)
 
