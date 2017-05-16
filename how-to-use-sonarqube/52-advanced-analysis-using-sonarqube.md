@@ -12,12 +12,12 @@ So, use the below basic code to create the sonar-project.properties file to comp
 
 ```
 ## ********************************************************************* ##
-##  File Name  : sonar-project.properties 				    ##  
-##  Description: Used to analyse the code from scripts 		    ##
+##  File Name  : sonar-project.properties                     ##  
+##  Description: Used to analyse the code from scripts             ##
 ## ********************************************************************  ##
-## Author                    		Version          Creation Date     ##
+## Author                            Version          Creation Date     ##
 ## ********************************************************************  ##
-##  Sai Kiran Nataraja         v1.0             20-March-2016	    ##
+##  Sai Kiran Nataraja         v1.0             20-March-2016        ##
 ## ********************************************************************* ##
 
 ##########################################################################
@@ -46,7 +46,7 @@ sonar.java.target=1.8
 
 # Project description
 sonar.projectDescription=This project is to verify and validate the Application for every release build.
- 
+
 # Path to source directories (Comma-separated paths to directories with sources are required)
 sonar.sources=src/
 # Path to Library directories (comment if no libs)
@@ -73,13 +73,7 @@ sonar.scm.enabled=true
 # sonar.scm.url=scm:git:https://...
 ```
 
-###### After saving the above code try to run the code using the following lines
-
-If you have set the environment variables for sonarscanner then just type
-
-> sonar-scanner sonar-project.properties
-
-After we get a success message in the command prompt we can view it in the dashboard of sonarQube.
+###### After we get a success message in the command prompt, we can view the analysis results in the dashboard of sonarQube.
 
 ![](/assets/AdvancedAnalysis_1.png)
 
