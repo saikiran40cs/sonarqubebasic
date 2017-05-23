@@ -30,5 +30,3 @@ You can log in to the SonarQube website by using the default account _admin/admi
 
 
 
-
-

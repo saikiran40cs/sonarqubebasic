@@ -7,6 +7,7 @@
   * [3.1 Pre-requisities](Installation of SonarQube/31-pre-requisities.md)
   * [3.2 Run SonarQube installation as-is](Installation of SonarQube/32-run-sonarqube-installation-as-is.md)
   * [3.3 Run SonarQube as Standalone Application](Installation of SonarQube/33-run-sonarqube-as-standalone-application.md)
+  * [3.4 Firewall settings for SonarQube](Installation of SonarQube/34-firewall-settings-for-sonarqube.md)
 * [4. SonarScanner Installation](sonarscanner-installation.md)
   * [4.1 Installation of SonarScanner in Windows](sonarscanner-installation/41-installation-of-sonarscanner-in-windows.md)
   * [4.2 Installation of SonarScanner in Jenkins](sonarscanner-installation/42-installation-of-sonarscanner-in-jenkins.md)
