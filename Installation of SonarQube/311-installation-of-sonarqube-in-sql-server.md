@@ -30,6 +30,8 @@ SELECTCONVERT(varchar,SERVERPROPERTY('collation'));
 
 ![](/assets/sqlserverdatabasecollation.png)
 
+Warning! SQL Server 14 Express, SQL Server Management Studio, and SQL 2014 LocalDB are separate downloads, make sure you actually installed SQL Server and not just the Management Studio! [http://www.microsoft.com/en-us/download/details.aspx?id=42299](http://www.microsoft.com/en-us/download/details.aspx?id=42299)
+
 * **SonarQube Service User**: Create a new windows user ‘SonarUser’. Give this user approprite permissions to the machine. Set this user up for access in the newly created database instance. Run the following command to check the permissions this user has in the database instance. Create a login for this user and permission this user with appropriate permission on the newly created sonar database to be able to create the schema.
 * **Static Port**: In the default configuration of SQL Server, Dynamic port are enabled. SonarQube expects a static port to route the requests. Log into SQL Server configuration manager and follow the instructions here to enable the TCP/IP and disable dynamic ports. [https://msdn.microsoft.com/en-GB/library/ms177440.aspx](https://msdn.microsoft.com/en-GB/library/ms177440.aspx)
 
