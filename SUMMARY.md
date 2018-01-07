@@ -6,7 +6,7 @@
 * [3. Installation of SonarQube](Installation of SonarQube.md)
   * [3.0.1 Pre-requisities](Installation of SonarQube/31-pre-requisities.md)
   * [3.1 SonarQube - SQL Server configuration](Installation of SonarQube/311-installation-of-sonarqube-in-sql-server.md)
-  * [3.2 Run SonarQube installation as-is](Installation of SonarQube/32-run-sonarqube-installation-as-is.md)
+  * [3.2 SonarQube - MySQL Server configuration](Installation of SonarQube/32-run-sonarqube-installation-as-is.md)
   * [3.3 Install SonarQube as Standalone Service](Installation of SonarQube/33-run-sonarqube-as-standalone-application.md)
   * [3.4 Firewall settings for SonarQube](Installation of SonarQube/34-firewall-settings-for-sonarqube.md)
   * [3.5 Configure ODBC Driver](Installation of SonarQube/35-configure-odbc-driver.md)

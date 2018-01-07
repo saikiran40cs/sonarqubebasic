@@ -72,7 +72,6 @@ SELECTCONVERT(varchar,SERVERPROPERTY('collation'));
   sonar.web.context=/
   # TCP port for incoming HTTP connections. Default value is 9000.
   sonar.web.port=9000
-
   ```
 
   ![](http://www.visualstudiogeeks.com/images/screenshots/tarun/SonarQube/sonarqubesqldatabaseconnectionstring.png "StartSonar without install SQL connection string")
